@@ -1,0 +1,112 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Custom CSS */
+
+body {
+    background-image: url("../media/1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.flex {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    padding: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.small-card {
+    width: 20vw;
+    height: 250px;
+    background-color: red;
+    margin: 40px 20px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 250px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.ltr0 {
+    background: red linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0) );
+}
+
+.rad {
+    background: red radial-gradient( rgba(255, 255, 255, 0), rgb(0, 0, 0) );
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.big-card {
+    width: 60vw;
+    height: 250px;
+    background-image: url("../media/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px auto;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 250px;
+    font-weight: 800;
+    font-size: 30px;
+}
