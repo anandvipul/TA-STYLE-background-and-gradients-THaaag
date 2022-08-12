@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+body {
+    background-color: #20222F;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+header {
+    margin: 30px auto;
+    color: white;
+}
+
+.left > h6 {
+    color: #9099c2;
+}
+
+.large-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #252B43;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 18vw;
+    height: 25vh;
+
+    border-radius: 8px;
+}
+
+.small-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #252B43;
+    justify-content: space-around;
+    width: 18vw;
+    height: 15vh;
+    
+    border-radius: 8px;
+}
+
+.flex {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+
+/* CSS For Large Box */
+
+.links-tag {
+    /* facebook-nathanf */
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: blue;
+}
+
+.links-tag > * {
+    padding: 5px;
+}
+
+.links-tag p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.four {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+    color: white;
+    /* padding: 20px; */
+}
+
+.sub-text {
+    color: #9099c2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.red {
+    color: red;
+}
+
+.large-card > .green-status {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: green;
+}
+
+.large-card > .green-status > * {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* End of CSS For Large Box */
+
+.small-top, .small-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 2vw;
+    align-items: center;
+}
+
+.small-top > h6   {
+    color:#9099c2
+}
+
+.small-top > i {
+    font-size: 30px;
+    color: blue;
+}
+
+.small-bottom > h2 {
+    color: white;
+}
+
+.small-bottom span {
+    color: green;
+}
+
+
+/* General Rules */
+
+.red {
+    color: red;
+}
+
+.instagram-background  {
+    background-image: linear-gradient(to top right, orange, red);
+}
+
+.small-top .red, .small-bottom .red{
+    color: red;
+}
+
+.border-top-blue {
+    border-top: 5px solid blue;
+}
+
+.border-top-red {
+    border-top: 5px solid red;
+}
+
+.border-top-insta{
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-image: linear-gradient( orange, red), 1;
+}
+
